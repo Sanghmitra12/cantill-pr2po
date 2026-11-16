@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+data/
+.env
+# Task data files must never be committed (see task email)
+Cantill_FullStack_Task_Kit/
+master_data/
+contracts/
+pr_batches/
+*.zip
+submission/*.tmp
+
+.venv/

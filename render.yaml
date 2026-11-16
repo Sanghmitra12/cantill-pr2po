@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pr2po
+    runtime: docker
+    plan: starter          # a persistent disk needs a paid plan; free plan loses data on restart
+    disks:
+      - name: data
+        mountPath: /data
+        sizeGB: 1
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
