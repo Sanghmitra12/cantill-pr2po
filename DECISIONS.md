@@ -29,3 +29,7 @@ Each entry: what was unclear → what I chose → why. All of these are changeab
 18. **Live queue**: chat PRs go into one rolling batch that is re-evaluated on every new PR so clubbing sees them. Approved lines leave the queue (the PO exists), so a later PR becomes a new requirement. Known limitation.
 19. **Task data is not in the repo**: load it at runtime from the Setup tab (zip or CSVs/PDFs; files are recognised by columns) or set `SEED_DATA_DIR` / `SEED_DATA_ZIP` / `SEED_DATA_URL`.
 20. The email says "Wed 19 Nov" and "Thu 19 Nov" for the same deadline (19 Nov 2026 is a Thursday); I planned for Thu 19 Nov 10:00 IST.
+
+
+
+    Blind test (19 Nov): the built-in amendment interpreter mis-parsed items A1 (Packaging limit) and A3 (Chakan electrical rule). I reviewed the plain-language diff and corrected the draft through the app’s own Edit-as-JSON before approving v5.1 (effective 1 Dec 2026). No application code was changed after the freeze.
