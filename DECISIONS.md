@@ -33,3 +33,5 @@ Each entry: what was unclear → what I chose → why. All of these are changeab
 
 
     Blind test (19 Nov): the built-in amendment interpreter mis-parsed items A1 (Packaging limit) and A3 (Chakan electrical rule). I reviewed the plain-language diff and corrected the draft through the app’s own Edit-as-JSON before approving v5.1 (effective 1 Dec 2026). No application code was changed after the freeze.
+
+    After the freeze I set the host environment variable SEED_DATA_URL (configuration only, no code change) so master data reloads automatically after a free-tier restart.
